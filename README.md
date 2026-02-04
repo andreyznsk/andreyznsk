@@ -1,8 +1,8 @@
-<div align="center">
+<div align="left">
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="center" width="20%">
-        <img src="pics/myPhoto.png" alt="Andrey Zaytsev" width="150" style="border-radius: 8px;"/>
+        <img src="pics/myPhoto.png" alt="Andrey Zaytsev" width="300" style="border-radius: 8px;"/>
       </td>
       <td align="left" width="80%">
         <div style="font-size: 28px; font-weight: bold; color: #ffffff; text-shadow: 1px 1px 3px rgba(0,0,0,0.7);">
