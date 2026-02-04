@@ -165,5 +165,5 @@ Enterprise-адаптация:
 ## 📫 Contacts
 
 - Email: andreyznsk@gmail.com
-- LinkedIn: https://linkedin.com/in/andreyznsk
+- LinkedIn: www.linkedin.com/in/andrey-zaytsev-6973491b9
 - GitHub: https://github.com/andreyznsk
