@@ -1,0 +1,121 @@
+<keymap version="1" name="GNOME copy" parent="Default for GNOME">
+  <action id="ActivateAIAssistantToolWindow">
+    <keyboard-shortcut first-keystroke="shift alt 2" />
+  </action>
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateChatToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateGradleToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ChangesView.AddUnversioned" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CodeInspection.OnEditor" />
+  <action id="DatabaseView.SqlGenerator" />
+  <action id="Diagram.DeselectAll" />
+  <action id="Diff.ApplyRightSide" />
+  <action id="EditorAddCaretPerSelectedLine" />
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="shift alt g" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="ExternalSystem.EditRunConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt quote" />
+  </action>
+  <action id="ExternalSystem.ProjectRefreshAction">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+    <keyboard-shortcut first-keystroke="shift alt i" />
+  </action>
+  <action id="GigaCodeNextPrompt" />
+  <action id="Git.Stage.Add" />
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="InsertInlineCompletionAction">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
+  <action id="IntroduceConstant" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
+  <action id="NotebookSelectCellAboveAction" />
+  <action id="NotebookSelectCellBelowAction" />
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift ctrl alt j" />
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="SmartSelect" />
+  <action id="TableResult.GrowSelection" />
+  <action id="TableResult.SelectColumn" />
+  <action id="Terminal.DeletePreviousWord" />
+  <action id="Terminal.LineDown" />
+  <action id="Terminal.LineUp" />
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="shift alt t" />
+  </action>
+  <action id="Terminal.SelectBlockAbove">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="Terminal.SelectLastBlock" />
+  <action id="Terminal.SelectPrompt" />
+  <action id="TodoViewGroupByFlattenPackage" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl f8" />
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="UsageFiltering.WriteAccess" />
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="alt back_quote" />
+    <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
+  <action id="com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+  </action>
+  <action id="hg4idea.QGotoFromPatches" />
+  <action id="hg4idea.add" />
+  <action id="main.toolbar.Project">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+  <action id="tasks.switch" />
+</keymap>
