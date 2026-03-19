@@ -168,7 +168,7 @@ Enterprise-адаптация:
 - Novosibirsk State Technical University — Computer Engineering
 - GeekBrains — Java Developer
 - **Spring AI Pro (2025)**
-- **Udemy — Microsoft Certified Professional (MCP)**
+- **Udemy — Model Context Protocol (MCP)**
 
 <div align="center" style="margin: 16px 0;">
   <img src="cert/Udemy_MCP.jpg" alt="Udemy MCP Certificate" width="400" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"/>
