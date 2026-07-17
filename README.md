@@ -20,29 +20,16 @@
 
 ## 👋 About me
 
-Senior Java-разработчик с 6+ годами коммерческого опыта в backend-разработке и SRE.  
-Специализируюсь на **production-системах**, производительности, надёжности и интеграции **LLM в реальные enterprise-архитектуры**.
+Senior Java-разработчик, 6+ лет коммерческого опыта в backend и SRE.
+Специализация: production-системы, производительность, надёжность, интеграция **LLM в enterprise-архитектуры**.
 
-В последние годы мой основной фокус — **Java + AI**:
-- LLM-интеграции в backend и developer tooling
-- Spring AI, RAG, memory, vector search
-- автоматизация и AI-ассистенты для инженерных процессов
-
-Интересуют задачи, где **AI — часть архитектуры продукта**, а не эксперимент.
+Основной фокус последних лет — **Java + AI**: LLM-интеграции в backend и developer tooling, Spring AI, RAG, memory, vector search, AI-агенты для инженерных процессов.
 
 ---
 
 ## 🧠 AI / LLM Focus
 
-- **Spring AI (Pro)**
-- Retrieval-Augmented Generation (RAG)
-- Memory (PostgreSQL)
-- Reranker
-- Vector Search (OpenSearch)
-- Local LLM (Ollama)
-- Enterprise LLM (GigaChat)
-- AI agents and backend integration
-- LLM-powered automation tools
+Spring AI (Pro) · RAG · Memory (PostgreSQL) · Reranker · Vector Search (OpenSearch) · Local LLM (Ollama) · Enterprise LLM (GigaChat) · AI-агенты и backend-интеграция
 
 ---
 
@@ -86,79 +73,24 @@ Senior Java-разработчик с 6+ годами коммерческого
 
 ---
 
-## 🧪 Featured Project — TestSmith
+## 🤖 Projects
 
-### **TestSmith — Coverage-Driven Test Agent for IntelliJ IDEA**
+### **LeaderOS** — AI-powered Tech Lead Framework · в опытной эксплуатации
+Персональный фреймворк для автоматизации рутины технического лидера: 3 Java-микросервиса (Spring Boot 3, Java 21) + общая библиотека, оркестрируемые Claude AI агентом через MCP (14+ инструментов). Почта → классификация LLM → Intake Gateway → задачи/риски/инциденты; RAG-поиск по базе знаний (OpenSearch, автоиндексация), интеграции Jira/Confluence/Kubernetes, PostgreSQL, Docker.
+👉 https://github.com/andreyznsk/Leader-Role-Framework
 
-**TestSmith** is a developer tooling project implemented as an **IntelliJ IDEA plugin**, focused on **coverage-driven test generation and analysis**.
+### **TestSmith** — Coverage-Driven Test Agent for IntelliJ IDEA
+IntelliJ Platform Plugin (Java 17, Gradle) для coverage-driven генерации и анализа тестов, заложен как основа под **LLM-powered test automation**: модульная архитектура под JaCoCo-анализ покрытия, test selection policies и agent-based логику.
+👉 https://github.com/andreyznsk/testSmith
 
-The project is designed as a foundation for **LLM-powered test automation**, tightly integrated into the IDE and local CI workflow.
-
-**Key characteristics**
-- Java-based IntelliJ Platform Plugin (Java 17, Gradle)
-- Compatible with IntelliJ IDEA IC / Ultimate 2025.x
-- Clean, extensible architecture prepared for agent-based workflows
-- Production-ready build, sandbox execution and ZIP distribution
-
-**Implemented features**
-- Custom IntelliJ plugin with registered actions
-- Local sandbox execution via `runIde`
-- Installable plugin ZIP (*Install Plugin from Disk*)
-- Modular architecture prepared for:
-  - coverage analysis (JaCoCo)
-  - test selection policies
-  - agent-based decision logic
-  - future LLM integration
-- Custom SVG icons with light/dark theme support
-
-👉 Repository: https://github.com/andreyznsk/testSmith
-
----
-
-## 🤖 AI Projects
-
-### **AI Mail Agent — LLM-powered Email Automation**
-
-AI-агент для интеллектуальной обработки электронной почты, реализованный как backend-сервис с использованием LLM.
-
-**Функциональность**
-- анализ входящих писем с помощью LLM
-- автоматическая классификация и приоритизация
-- генерация ответов и рекомендаций
-- расширяемая архитектура под бизнес-правила и интеграции
-
-**Технический фокус**
-- LLM-интеграция в backend-сервис
-- агентная модель обработки событий
-- подготовка к enterprise-использованию
-- ориентация на автоматизацию рутинных процессов
-
-👉 Repository: https://github.com/andreyznsk/AI_Mail_agent
-
----
+### **AI Mail Agent** — LLM-powered Email Automation
+Backend-сервис — AI-агент для анализа, классификации и генерации ответов на входящие письма, расширяемая архитектура под бизнес-правила.
+👉 https://github.com/andreyznsk/AI_Mail_agent
 
 ### **Spring AI Chat with RAG & Memory**
+AI-чат на **Spring AI** с memory (PostgreSQL), RAG, Reranker и Local LLM (Ollama); enterprise-адаптация на OpenSearch + GigaChat.
+👉 https://github.com/andreyznsk/SpringAi_with_devOps
 
-- AI-чат на базе **Spring AI**
-- Memory-хранилище на PostgreSQL
-- RAG для контекстного обогащения
-- Local LLM (Ollama)
-- Reranker для повышения качества ответов
-
-Enterprise-адаптация:
-- OpenSearch вместо RAG-платформы
-- GigaChat как LLM
-- рефакторинг под production-требования
-
-👉 Repository: https://github.com/andreyznsk/SpringAi_with_devOps
-
----
-
-## 📂 Projects
-
-- **TestSmith** — IntelliJ IDEA plugin, coverage-driven testing
-- **AI Mail Agent** — LLM-powered email automation agent
-- **SpringAi_with_devOps** — Spring AI, RAG, LLM integration
 - Algorithm practice: https://leetcode.com/u/andreyznsk/
 
 ---
