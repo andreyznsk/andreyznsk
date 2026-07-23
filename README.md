@@ -1,5 +1,3 @@
-<img align="right" src="pics/myPhoto.png" alt="Andrey Zaytsev" width="150"/>
-
 # Андрей Зайцев
 
 ### Senior Java Developer
