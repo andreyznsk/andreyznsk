@@ -1,76 +1,93 @@
-# Андрей Зайцев
+<img align="right" src="pics/myPhoto.png" alt="Andrey Zaytsev" width="150"/>
 
-### Senior Java Developer
+# Platform / AI Developer Tools Engineer
 
-Java 21 · Spring Boot · Microservices · PostgreSQL · Kafka · Kubernetes
+Java Backend · Developer Platform · Kubernetes · CI/CD · AI Agents · MCP
 
-Senior Java-разработчик с 5+ годами коммерческого опыта в разработке и модернизации корпоративных backend-систем. Специализируюсь на Java и Spring Boot, микросервисной архитектуре, интеграциях, производительности JVM и работе с production-системами.
-
-Сочетаю hands-on разработку с code review и техническим лидерством. Ищу позицию **Senior Java Developer**: удалённо по России либо офис/гибрид в Новосибирске.
+**Андрей Зайцев** — инженер с 5+ годами коммерческого опыта в Java Backend. Модернизирую enterprise-системы и развиваю надёжную production-инфраструктуру. Мой следующий инженерный фокус — AI-powered developer tools, Developer Experience и автоматизация разработки на базе сильного backend- и платформенного опыта.
 
 <br clear="right"/>
 
-## Основной стек
+## About Me
 
-**Backend:** Java 8/11/17/21, Spring Boot 2/3, Spring Framework 6, Spring Web, WebFlux, Spring Data, Spring Batch
+Моя основа — Java, Spring Boot, микросервисы и распределённые системы: интеграции, модернизация приложений, оптимизация JVM и эксплуатационная надёжность. Есть практический опыт перехода от legacy-окружения к Kubernetes, воспроизводимому CI/CD и observability.
 
-**Architecture & Integration:** Microservices, REST/JSON, gRPC, SOAP/JAX-WS, Kafka, IBM MQ, ActiveMQ
+Сейчас работаю Tech Lead: основной фокус — архитектура, техническая координация и инженерные процессы. Развиваю экспертизу в AI agents, MCP и Spec-Driven Development через личные проекты и текущие инженерные инициативы. Хочу создавать инструменты и платформенные сервисы, которые помогают разработчикам понимать кодовую базу, проверять изменения и надёжно доставлять ПО.
 
-**Data:** PostgreSQL, Oracle, PL/SQL, MyBatis, Hibernate, OpenSearch
+## Core Expertise
 
-**Testing:** JUnit 4/5, integration testing, JaCoCo, SonarQube
+**Коммерческий опыт и production**
 
-**Production:** Kubernetes, OpenShift, Helm, Docker, Jenkins, Prometheus, Grafana, ELK
+- **Backend Engineering:** Java 8/11/17/21, Spring Boot 2/3, REST, gRPC, microservices, PostgreSQL, Kafka; Kotlin — в текущем архитектурном контексте.
+- **Platform Engineering:** Kubernetes, OpenShift, Helm, Docker, Jenkins, Bitbucket, CI/CD.
+- **Reliability & Observability:** Prometheus, VictoriaMetrics, Grafana, ELK, JVM profiling, JFR/JMC.
+- **Quality & Integration:** JUnit 4/5, integration testing, SonarQube, JaCoCo, SOAP, IBM MQ / ActiveMQ, enterprise authentication.
 
-**JVM Performance:** JFR, JMC, VisualVM, JConsole, JMX/MBeans
+**Личные проекты и развиваемая экспертиза**
 
-## Профессиональный опыт
+- **AI & Developer Tools:** Spring AI, RAG, Ollama, MCP, LLM integrations, AI coding agents; Spec-Driven Development — текущая практика и направление автоматизации.
+- **Platform Learning:** Tekton / Argo — направление изучения delivery-процессов.
 
-### Senior Backend Engineer (Java) · Сбер
+## Professional Experience
+
+### Sber | May 2021 – Present
+
+#### Tech Lead | 2026 – Present
+
+- Техническая координация кросс-функциональной команды из **11 специалистов**.
+- Архитектура и развитие Java/Kotlin-микросервисов; согласование технических решений.
+- Развитие инженерных процессов и software delivery, внедрение Spec-Driven Development.
+- Исследование и проектирование AI-assisted engineering automation: внутренние AI agents, Qwen/DeepSeek и MCP. Это работа над подходами и прототипами, а не завершённая production-платформа.
+
+#### Senior Java Backend Engineer | Before 2026
 
 - Ускорил работу backend-системы более чем на **30%** за счёт профилирования и устранения узких мест.
-- Обновил технологический стек с **Java 8 до Java 21** и перевёл приложение на **Spring Boot 3 / Spring Framework 6**.
-- Участвовал в декомпозиции монолита и переходе к микросервисной архитектуре.
-- Перенёс приложение в Kubernetes, подготовил Helm-конфигурацию и помог команде освоить платформу.
-- Завершил миграцию данных **Oracle → PostgreSQL**.
-- Внедрил observability: Prometheus, Grafana, ELK и метрики Kafka.
-- Настроил CI/CD-процесс с Jenkins, SonarQube и JaCoCo.
-- Проектировал и разрабатывал REST- и gRPC-интеграции.
-- Координировал техническую работу команды из четырёх разработчиков.
+- Выполнил миграцию **Java 8 → Java 21**, **Spring Boot 3 / Spring Framework 6**; участвовал в переходе от монолита к микросервисам.
+- Перенёс деплой с **Windows Server в Kubernetes** примерно за **шесть месяцев**; подготовил Helm-конфигурацию и помог команде освоить платформу.
+- Настроил Jenkins CI/CD с SonarQube и JaCoCo.
+- Внедрил Prometheus, VictoriaMetrics, Grafana, ELK, метрики Kafka и базовый production alerting.
+- Завершил миграцию данных **Oracle → PostgreSQL**; разрабатывал REST/gRPC-интеграции и работал с enterprise authentication.
+- Координировал техническую работу четырёх разработчиков, проводил code review и развивал тестовое покрытие.
 
-## Публичные проекты
+## Featured Projects
+
+Личные проекты: описания отражают публичный код и документацию, без заявления о production-внедрении.
 
 ### [LeaderOS — AI-powered Tech Lead Framework](https://github.com/andreyznsk/Leader-Role-Framework)
 
-Система из трёх Java-сервисов и общей библиотеки на Java 21 / Spring Boot. В проекте реализованы единый интерфейс для LLM-провайдеров, Intake Gateway, обработка почты, retry/checkpoint state machine, дедупликация, RAG-поиск по базе знаний и интеграции с Jira.
-
-**Стек:** Java 21, Spring Boot, PostgreSQL, OpenSearch, Docker, RAG, MCP, Jira API.
+Развиваемый проект на Java 21 / Spring Boot: три сервиса для обработки почты, операционной памяти и RAG, общая библиотека с абстракцией LLM-провайдеров. В коде представлены MCP tools, retry/checkpoint-обработка писем и Jira REST client; архитектурная документация описывает границы сервисов и интеграционные потоки.
 
 ### [Spring AI Chat with RAG & Memory](https://github.com/andreyznsk/SpringAi_with_devOps)
 
-Backend-приложение на Spring AI с памятью в PostgreSQL, RAG, reranking и локальной LLM через Ollama. Подготовлена enterprise-адаптация для OpenSearch и GigaChat.
+Экспериментальный Java backend на Spring AI: история диалога в PostgreSQL, RAG, BM25 reranking и локальная LLM через Ollama. Проект для изучения retrieval-пайплайнов и управления контекстом LLM.
 
 ### [AI Mail Agent](https://github.com/andreyznsk/AI_Mail_agent)
 
-Java backend-сервис для анализа и классификации входящих писем с расширяемой архитектурой бизнес-правил и LLM-интеграций.
+Java backend для обработки писем с вакансиями: маршрутизация по источнику письма, парсинг вакансий, LLM-сопоставление с резюме и генерация черновиков ответов. Бизнес-правила и валидация выделены отдельно от LLM-интеграций. Это специализированный сценарий обработки почты, а не универсальный классификатор.
 
-## Дополнительный фокус
+### [TestSmith](https://github.com/andreyznsk/testsmith-intellij-plugin)
 
-Spring AI, RAG, LLM memory, reranking, OpenSearch, Ollama, GigaChat и MCP. Рассматриваю AI как дополнительный инструмент для Java/backend-разработки, а не как замену основному инженерному профилю.
+Ранний прототип IntelliJ-плагина для будущего AI-assisted developer tooling с фокусом на генерацию тестов по покрытию. Публичный репозиторий пока содержит каркас плагина; AI-генерация тестов остаётся направлением разработки.
 
-## Образование
+## Current Engineering Focus
 
-- Новосибирский государственный технический университет — вычислительные машины, комплексы, системы и сети
-- Spring AI Pro, 2025
-- GeekBrains Java Developer
+Текущие исследования и инженерные инициативы; перечисленные решения ещё не представлены как завершённые production-системы.
 
-## Языки
+1. **Codebase Knowledge:** AI-powered поиск знаний о кодовой базе и актуализация инженерной документации.
+2. **Spec-Driven Development:** автоматизация перехода от спецификации к задачам, изменениям и проверкам.
+3. **Release Guard:** проектирование проверок готовности релиза перед production.
+4. **Incident Assistant:** исследование AI-assisted troubleshooting с использованием инженерного контекста и observability.
 
-- Русский — родной
-- Английский — B1
+## Education & Learning
 
-## Контакты
+- Новосибирский государственный технический университет — вычислительные машины, комплексы, системы и сети.
+- Spring AI Pro, 2025.
+- GeekBrains Java Developer.
+- Языки: русский — родной, английский — B1.
 
+## Contact
+
+- [GitHub](https://github.com/andreyznsk)
 - [LinkedIn](https://www.linkedin.com/in/andreyznsk)
 - [Telegram](https://t.me/Andrey_Zaytsev_nsk)
 - [LeetCode](https://leetcode.com/u/andreyznsk/)
